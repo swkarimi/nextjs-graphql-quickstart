@@ -34,7 +34,7 @@ export const Header: FC = () => {
 	};
 
 	return (
-		<header className="sticky left-0 top-0 w-full border-b border-b-regular bg-background p-4">
+		<header className="sticky left-0 top-0 w-full border-b border-b-br-regular bg-background p-4">
 			<div className="mx-auto flex w-full max-w-4xl justify-between">
 				<div className="flex gap-2">
 					<Image src="/assets/svg/logo.svg" alt="logo" width={24} height={24} />

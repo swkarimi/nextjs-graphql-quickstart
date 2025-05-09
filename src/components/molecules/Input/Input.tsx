@@ -55,7 +55,7 @@ export const Input: FC<IInput> = forwardRef<HTMLInputElement, IInput>(
 		ref,
 	) => {
 		const inputStyles = classNames(
-			`w-full h-[44px] px-3 appearance-none border rounded-xl bg-input text-regular align-middle inline-block 
+			`w-full h-[44px] px-3 appearance-none border rounded-xl bg-input text-tx-regular align-middle inline-block 
       placeholder:text-placeholder focus:outline-none  focus-visible:outline-none focus-visible:shadow
       disabled:!opacity-70 disabled:pointer-events-none`,
 			status === 'error' ? 'border-danger' : 'border-regular',
