@@ -16,10 +16,10 @@ export const Feedback: FC<IFeedback> = ({
 	className,
 }) => {
 	const color = isDisabled
-		? 'opacity-70 text-regular'
+		? 'opacity-70 text-tx-regular'
 		: isError
 			? 'text-danger'
-			: 'text-regular';
+			: 'text-tx-regular';
 	return (
 		<Text className={classNames('w-full text-right', color, className)}>
 			{data}

@@ -19,7 +19,7 @@ export default function HomePage() {
 			<Typography.Title level="h1">{t('title')}</Typography.Title>
 			<Typography.Paragraph>{t('description')}</Typography.Paragraph>
 			{!loading ? (
-				<div className="mx-auto w-full flex flex-col gap-6 rounded-xl border border-regular bg-background-component p-10">
+				<div className="mx-auto w-full flex flex-col gap-6 rounded-xl border border-br-regular bg-background-component p-10">
 					<Typography.Paragraph className="text-lg">
 						{data?.sentence?.quote}
 					</Typography.Paragraph>
