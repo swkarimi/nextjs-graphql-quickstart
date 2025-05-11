@@ -1,5 +1,5 @@
 import '@/styles/globals.scss';
-import { Header } from '@/components';
+import { Footer, Header } from '@/components';
 
 interface LayoutProps {
 	children: React.ReactNode;
@@ -10,6 +10,7 @@ export default async function MainLayout({ children }: LayoutProps) {
 		<>
 			<Header />
 			{children}
+			<Footer />
 		</>
 	);
 }
