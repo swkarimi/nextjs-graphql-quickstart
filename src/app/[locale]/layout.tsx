@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import '@/styles/globals.scss';
 import { type LocaleType, routing } from '@/i18n/routing';
+import { getDirection } from '@/lib/locale';
 import { Providers } from '@/providers';
 import { GeistSans } from 'geist/font/sans';
 import { NextIntlClientProvider } from 'next-intl';
@@ -25,7 +26,7 @@ export default async function RootLayout({ children, params }: LayoutProps) {
 		notFound();
 	}
 
-	const direction = locale === 'fa' ? 'rtl' : 'ltr';
+	const direction = getDirection(locale);
 
 	const messages = await getMessages();
 	return (
