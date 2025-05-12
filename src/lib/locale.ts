@@ -1,8 +1,3 @@
-// lib/locale.ts
-
-/**
- * Returns text direction ("rtl" or "ltr") based on the locale.
- */
 export const getDirection = (locale: string): 'rtl' | 'ltr' => {
 	const rtlLocales = [
 		'ar', // Arabic

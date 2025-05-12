@@ -10,7 +10,7 @@ export default async function MainLayout({ children }: LayoutProps) {
 		<>
 			<Header />
 			{children}
-			<Footer />
+			<div id="modal-root" />
 		</>
 	);
 }

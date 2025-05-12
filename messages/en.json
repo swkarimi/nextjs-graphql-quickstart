@@ -1,5 +1,10 @@
 {
 	"Header": {
 		"title": "personal finance tracker"
+	},
+	"Vocab": {
+		"income": "income",
+		"expense": "expense",
+		"balance": "balance"
 	}
 }
